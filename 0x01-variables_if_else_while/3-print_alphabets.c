@@ -1,16 +1,20 @@
 #include <stdio.h>
 
 /**
- * main - Prints the alphabetic
- * Return: Always (Success)
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char c;
+	char low;
 
-	for (c = 'a'; c <= 'z'; c++)
-	putchar(c);
+	for (low = 'a'; low <= 'z'; c++)
+	putchar(low);
+
+	for (low = 'A'; low <= 'Z'; c++)
+	putchar(low);	
 	putchar('\n');
+
 	return (0);
 }
 
