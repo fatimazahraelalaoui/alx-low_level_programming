@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet_x10 - Make eh alphabet x10 times
- * Return: void 
+ * Return: Void
  */
 
 void print_alphabet_x10(void)
@@ -13,7 +13,7 @@ void print_alphabet_x10(void)
 
 	while (i <= 9)
 	{
-for (c = 'a'; c <= 'z'; c++)
+        for (c = 'a'; c <= 'z'; c++)
 	{
 	_putchar(c);
 	}
