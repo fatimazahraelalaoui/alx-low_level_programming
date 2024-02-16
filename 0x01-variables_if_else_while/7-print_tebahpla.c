@@ -3,21 +3,19 @@
 /**
  * main - Entry point
  *
- * Description: print all aplhabet letters except q and e
+ * Description: print a-z in reverse
  *
  * Return: Always 0 (Success)
 */
 
 int main(void)
 {
-	char ch = 'a';
+	char ch = 'z';
 
-	while (ch <= 'z')
+	while (ch >= 'a')
 	{
-		if (ch == 'e' || ch == 'q')
-			++ch;
 		putchar(ch);
-		++ch;
+		--ch;
 	}
 	putchar('\n');
 
